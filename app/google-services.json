@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "885601281491",
+    "firebase_url": "https://mobisave-dfdfd.firebaseio.com",
+    "project_id": "mobisave-dfdfd",
+    "storage_bucket": "mobisave-dfdfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885601281491:android:c7bb284d8200590c",
+        "android_client_info": {
+          "package_name": "com.bydeone.mobisave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885601281491-l07qpna64itkp7r5ichcs3dv7jvpo0ce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bydeone.mobisave",
+            "certificate_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+          }
+        },
+        {
+          "client_id": "885601281491-6j7o9mv5jj36fejkcgcq9626620ndqch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcq3iA2pYbKBEs3m2sSUs4N54wKAZaFPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885601281491-6j7o9mv5jj36fejkcgcq9626620ndqch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
