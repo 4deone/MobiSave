@@ -2,21 +2,6 @@
 # Build configuration for Circle CI
 #
 
-jobs:
-  Build Error:
-    docker:
-      - image: bash:4.4.19
-    steps:
-      - run:
-          name: Config Processing Error (Don't rerun)
-          command: "# ERROR IN CONFIG FILE:\n# [#] required key [jobs] not found\n# \n# -------\n# Warning: This configuration was auto-generated to show you the message above.\n# Don't rerun this job. Rerunning will have no effect.\nfalse"
-workflows:
-  version: 2
-  Build Error:
-    jobs:
-      - Build Error
-version: 2
-
 general:
   artifacts:
     - /home/ubuntu/MobiSave/app/build/outputs/apk/
@@ -27,7 +12,7 @@ machine:
 
 dependencies:
   override:
-    - echo y | android update sdk --no-ui --all --filter tools,platform-tools,build-tools-19.1.0,android-19,extra-google-m2repository,extra-google-google_play_services,extra-android-support
+    - echo y | android update sdk --no-ui --all --filter tools,platform-tools,build-tools-28.0.0,android-28,extra-google-m2repository,extra-google-google_play_services,extra-android-support
     - ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies
 
 test:
