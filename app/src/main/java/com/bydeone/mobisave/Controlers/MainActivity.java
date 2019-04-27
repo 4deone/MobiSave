@@ -1,7 +1,9 @@
-package com.bydeone.mobisave;
+package com.bydeone.mobisave.Controlers;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.bydeone.mobisave.R;
 
 public class MainActivity extends AppCompatActivity {
 
